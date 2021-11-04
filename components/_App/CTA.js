@@ -3,7 +3,7 @@ import styles from "../../styles/CTA.module.css";
 const CTA = () => {
   return (
     <div>
-      <section className={styles["section-cta"]}>
+      <section id="cta" className={styles["section-cta"]}>
         <div className={styles.container}>
           <div className={styles.cta}>
             <div className={styles["cta-text-box"]}>
@@ -49,7 +49,7 @@ const CTA = () => {
                 </div>
 
                 <button className={`${styles.btn} ${styles["btn--form"]}`}>
-                  Sign up now
+                  Subscribe now
                 </button>
 
                 {/* <input type="checkbox" />

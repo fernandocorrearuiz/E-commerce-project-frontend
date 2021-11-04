@@ -11,7 +11,7 @@
   grid-template-columns: 2fr 1fr;
   /* background-color: #e67e22; */
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.726);
-  border-radius: 11px;
+  border-radius: 90px;
 
   background-image: linear-gradient(to right bottom, #eb984e, #fdf2e9);
   overflow: hidden;

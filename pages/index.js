@@ -1,17 +1,19 @@
 import HeroSection from "../components/_App/HeroSection";
 import CTA from "../components/_App/CTA";
+import Footer from "../components/_App/Footer";
 
 const Home = () => {
   return (
     <div>
-      <p>This is Home</p>
+      <h1>This is Home</h1>
 
       <main>
         <HeroSection />
         <CTA />
+        <Footer />
       </main>
 
-      <p>This is Home</p>
+      <h1>This is Home</h1>
     </div>
   );
 };

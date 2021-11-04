@@ -20,7 +20,10 @@ const HeroSection = () => {
             >
               Check the portfolio
             </a>
-            <a href="#" className={`${styles.btn} ${styles["btn--outline"]}`}>
+            <a
+              href="#cta"
+              className={`${styles.btn} ${styles["btn--outline"]}`}
+            >
               Learn more &darr;
             </a>
             <div className={styles["delivered-meals"]}>
