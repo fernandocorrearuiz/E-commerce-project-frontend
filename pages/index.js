@@ -2,12 +2,12 @@ import HeroSection from "../components/_App/HeroSection";
 import CTA from "../components/_App/CTA";
 import Footer from "../components/_App/Footer";
 import Pricing from "../components/Pricing/Pricing";
+import NavBar from "../components/_App/NavBar";
 
 const Home = () => {
   return (
     <div>
-      <h1>This is Home</h1>
-
+      <NavBar />
       <main>
         <HeroSection />
         <Pricing />
