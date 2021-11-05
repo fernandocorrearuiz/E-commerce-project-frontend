@@ -16,7 +16,7 @@ const Footer = () => {
               />
             </a>
 
-            <ul className={styles["social-links"]}>
+            {/* <ul className={styles["social-links"]}>
               <li>
                 <a className={styles["footer-link"]} href="#">
                   <ion-icon
@@ -41,7 +41,7 @@ const Footer = () => {
                   ></ion-icon>
                 </a>
               </li>
-            </ul>
+            </ul> */}
 
             <p className={styles.copyright}>
               Copyright &copy; 2021 by SnEaKeRs, Inc. All rights reserved.
@@ -60,7 +60,7 @@ const Footer = () => {
                 <br />
                 <a
                   className={styles["footer-link"]}
-                  href="mailto:hello@omnifood.com"
+                  href="mailto:info@sneakers.com"
                 >
                   info@sneakers.com
                 </a>
@@ -69,7 +69,7 @@ const Footer = () => {
           </div>
           <nav className={styles["nav-col"]}>
             <p className={styles["footer-heading"]}>Account</p>
-            <ul class="footer-nav">
+            <ul className={styles["footer-nav"]}>
               <li>
                 <a className={styles["footer-link"]} href="#">
                   Create account
@@ -95,7 +95,7 @@ const Footer = () => {
 
           <nav className={styles["nav-col"]}>
             <p className={styles["footer-heading"]}>Company</p>
-            <ul class="footer-nav">
+            <ul className={styles["footer-nav"]}>
               <li>
                 <a className={styles["footer-link"]} href="#">
                   About Sneakers
