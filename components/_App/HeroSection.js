@@ -15,7 +15,7 @@ const HeroSection = () => {
               your SnEaKeRs before
             </p>
             <a
-              href="#"
+              href="#pricing"
               className={`${styles.btn} ${styles["btn--full"]} ${styles["margin-right-sm"]}`}
             >
               Check the portfolio

@@ -1,6 +1,7 @@
 import HeroSection from "../components/_App/HeroSection";
 import CTA from "../components/_App/CTA";
 import Footer from "../components/_App/Footer";
+import Pricing from "../components/Pricing/Pricing";
 
 const Home = () => {
   return (
@@ -9,11 +10,10 @@ const Home = () => {
 
       <main>
         <HeroSection />
+        <Pricing />
         <CTA />
         <Footer />
       </main>
-
-      <h1>This is Home</h1>
     </div>
   );
 };
