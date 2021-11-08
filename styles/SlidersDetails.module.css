@@ -1,0 +1,11 @@
+.section-sliders {
+  height: 87vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(235, 151, 78, 0.75),
+      rgba(230, 125, 34, 0.75)
+    ),
+    url("../public/images/image-product-3.jpg");
+  background-size: cover;
+  background-position: top;
+}

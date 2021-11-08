@@ -3,7 +3,7 @@ import styles from "../../styles/Footer.module.css";
 const Footer = () => {
   return (
     <div>
-      <footer className={styles.footer}>
+      <footer id="footer" className={styles.footer}>
         <div
           className={`${styles.container} ${styles.grid} ${styles["grid--footer"]}`}
         >

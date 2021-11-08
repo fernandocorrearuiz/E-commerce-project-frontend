@@ -31,7 +31,7 @@ const Pricing = () => {
 
             <div className={styles["plan-sing-up"]}>
               <a
-                href="#"
+                href="/rollers"
                 className={`${styles["btn"]} ${styles["btn--full"]} `}
               >
                 Buy Now
@@ -56,7 +56,7 @@ const Pricing = () => {
 
             <div className={styles["plan-sing-up"]}>
               <a
-                href="#"
+                href="/sliders"
                 className={`${styles["btn"]} ${styles["btn--full"]} `}
               >
                 Buy Now

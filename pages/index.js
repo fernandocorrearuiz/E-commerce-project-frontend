@@ -12,8 +12,8 @@ const Home = () => {
         <HeroSection />
         <Pricing />
         <CTA />
-        <Footer />
       </main>
+      <Footer />
     </div>
   );
 };

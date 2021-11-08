@@ -4,18 +4,18 @@ const NavBar = () => {
   return (
     <div>
       <header className={styles.header}>
-        <a href="#">
+        <a href="/">
           <img className={styles.logo} alt="Sneakers logo" src="/logo.svg" />
         </a>
         <nav className={styles["main-nav"]}>
           <ul className={styles["main-nav-list"]}>
             <li>
-              <a className={styles["main-nav-link"]} href="#">
+              <a className={styles["main-nav-link"]} href="/rollers">
                 Rollers
               </a>
             </li>
             <li>
-              <a className={styles["main-nav-link"]} href="#">
+              <a className={styles["main-nav-link"]} href="/sliders">
                 Sliders
               </a>
             </li>
@@ -25,7 +25,7 @@ const NavBar = () => {
               </a>
             </li>
             <li>
-              <a className={styles["main-nav-link"]} href="#">
+              <a className={styles["main-nav-link"]} href="#footer">
                 Contact
               </a>
             </li>
