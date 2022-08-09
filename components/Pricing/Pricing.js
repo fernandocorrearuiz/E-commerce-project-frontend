@@ -1,6 +1,6 @@
 import styles from "../../styles/Pricing.module.css";
 
-const Pricing = () => {
+const Pricing = (props) => {
   return (
     <div>
       <section id="pricing" className={styles["section-pricing"]}>
@@ -20,7 +20,8 @@ const Pricing = () => {
             <header className={styles["plan-header"]}>
               <p className={styles["plan-name"]}>Rollers</p>
               <p className={styles["plan-price"]}>
-                <span>$</span>199
+                <span>€</span>
+                {props.rollersPrice}
               </p>
             </header>
             <img
@@ -45,7 +46,8 @@ const Pricing = () => {
             <header className={styles["plan-header"]}>
               <p className={styles["plan-name"]}>Sliders</p>
               <p className={styles["plan-price"]}>
-                <span>$</span>399
+                <span>€</span>
+                {props.slidersPrice}
               </p>
             </header>
             <img

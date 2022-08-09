@@ -1,6 +1,13 @@
+import { useContext } from "react";
+
+import CartContext from "../../store/cart-context";
 import styles from "../../styles/NavBar.module.css";
 
-const NavBar = () => {
+const NavBar = (props) => {
+  const cartCtx = useContext(CartContext);
+
+  const numberOfCartItems = cartCtx.items.length;
+
   return (
     <div>
       <header className={styles.header}>
@@ -20,7 +27,7 @@ const NavBar = () => {
               </a>
             </li>
             <li>
-              <a className={styles["main-nav-link"]} href="#pricing">
+              <a className={styles["main-nav-link"]} href="/#pricing">
                 Pricing
               </a>
             </li>
@@ -30,12 +37,12 @@ const NavBar = () => {
               </a>
             </li>
             <li>
-              <a
+              <button
                 className={`${styles["main-nav-link"]} ${styles["nav-cta"]}`}
-                href="#"
+                onClick={props.onShowCart}
               >
-                Sign in
-              </a>
+                Cart <span>{numberOfCartItems}</span>
+              </button>
             </li>
           </ul>
         </nav>

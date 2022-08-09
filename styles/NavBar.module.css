@@ -36,12 +36,15 @@
   color: #cf711f;
 }
 
-.main-nav-link.nav-cta:link,
-.main-nav-link.nav-cta:visited {
+.main-nav-link.nav-cta {
   padding: 1.2rem 2.4rem;
-  border-radius: 9px;
+  border-radius: 20px;
   color: #fff;
   background-color: #e67e22;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 700;
+  border: none;
 }
 
 .main-nav-link.nav-cta:hover,
